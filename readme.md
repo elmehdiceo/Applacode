@@ -1,3 +1,21 @@
+# CSS - Basics
+
+* How to use a specific font
+
+```
+@import 'https://fonts.googleapis.odeom/css?family=Ewert';
+```
+
+```
+.layout {
+*{
+font-family: 'Ewert' !important;
+font-size: 30px !important;
+}
+}
+```
+
+
 # CSS - Custom
 
 * Customize your video player
