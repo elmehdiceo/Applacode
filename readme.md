@@ -68,3 +68,56 @@ height: 64%;
 text-align: left;
 }
 ```
+
+* Custom shapes of features Homepage
+
+```
+.homepage .layout li {
+border-radius:50%;
+}
+```
+
+* 1 Feature 1 Color
+
+```
+.homepage .layout li:nth-child(1) {
+background-color: #0099C7;
+}
+.homepage .layout li:nth-child(2) {
+background-color: #ffd64b;
+}
+.homepage .layout li:nth-child(3) {
+background-color: #ff3a2e;
+}
+.homepage .layout li:nth-child(4) {
+background-color: #9d5cad;
+}
+```
+
+* Delete titles features
+
+```
+.homepage .layout li p {
+display: none;
+}
+```
+
+
+* Margin bottom list
+
+```
+.list {
+margin-bottom: 0;
+}
+```
+
+* Change size of thumbnail
+
+```
+.list .item.item-thumbnail-left {
+min-height: auto;
+}
+.list .item.item-thumbnail-left img {
+height: auto;
+}
+```
