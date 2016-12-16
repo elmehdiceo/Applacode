@@ -1,4 +1,4 @@
-# Applacode
+# CSS - Custom
 
 * Customize your video player
 
@@ -121,3 +121,50 @@ min-height: auto;
 height: auto;
 }
 ```
+
+# CSS - Effects
+
+* Set the icon tab bar to be stuck to the slider homepage
+
+```
+.layout.l3 ion-scroll, .layout.l4 ion-scroll, .layout.l5 ion-scroll, .layout.l6 ion-scroll {
+height: 70% !important;
+}
+```
+
+* Add a background image to the header of the app
+
+```
+ion-header-bar.bar-custom.bar.bar-header.disable-user-behavior {
+background-image: url(http://link-to-image);
+background-color: transparent;
+background-size: 100% 100%;
+}
+```
+
+* Delete the menu’s shadow – layout 1,2 or 10
+
+```
+.layout.l1 .tabs {
+box-shadow: none;
+}
+```
+
+* Transform your lists’ style
+
+```
+.item.item-input.item-custom {
+margin: 10px;
+}
+```
+
+* Button Hover
+
+```
+.button.button-custom:hover,.button.button-custom:active {
+color: #fff;
+background-color: #0099c7;
+}
+```
+
+
