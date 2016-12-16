@@ -15,6 +15,32 @@ font-size: 30px !important;
 }
 ```
 
+* Title policy with shadow
+
+```
+i.icon.ion-ios-arrow-back, span.default-title.ng-binding, span.nav-bar-title.ng-binding, button.button.button-clear.header-item {
+color: #887f77 !important;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+```
+
+* Adapt the height of the image gallery
+
+```
+.item.item-image-gallery {
+height: inherit;
+}
+```
+
+* Resize your icons/images
+
+```
+.homepage .layout li img {
+height: 30px;
+width: 30px;
+margin-top: 20%;
+}
+```
 
 # CSS - Custom
 
