@@ -34,3 +34,37 @@ background-image: url("http://i.imgur.com/jyeOuJh.jpg");
 background-size: cover;
 }
 ```
+
+* Hide the option “Log-in with facebook”
+
+```
+form.slide-down .list .item:nth-child(1), form.slide-down .list .item:nth-child(2) {
+display: none;
+}
+```
+
+
+* Mcommerce – Add a background behind the number
+
+```
+.item-input-wrapper {
+background-color: #0099C7;
+}
+```
+
+* Height of your Menu
+
+```
+.layout.l6 ion-scroll {
+height: 64%;
+}
+```
+
+
+* Left-align your title
+
+```
+.title.title-center.header-item {
+text-align: left;
+}
+```
