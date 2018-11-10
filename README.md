@@ -50,4 +50,27 @@ Go to Features >> Custom Page >> Add Text Section  >> Click on Source Button
 Note: here you don't have to use 0 or + sign in country code. For MOROCCO, Country code is 212.
 
 
-### 
+### Delete the navigator - layouts n°3, 4 & 5
+
+To do that, add the following css in the advanced customization section of your editor:
+
+`.slider-pager { 
+    display: none; 
+}`
+
+
+### Change your menu's style  Template Metro - layout 3 - full.
+
+To do that, just add the following css in the advanced customization section of your editor:
+
+`.layout.l14 li { 
+    margin: 0; 
+    width: 33%; 
+}
+.layout.l14 ul { 
+    margin: 6%; 
+}`
+
+Information
+
+This modification only affects the Layout 3 - full.
